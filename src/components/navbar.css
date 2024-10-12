@@ -1,0 +1,25 @@
+.form-filter {
+  @apply rounded-2xl   shadow-lg bg-white;
+  /* @apply flex gap-4; */
+  button {
+    @apply px-4 py-4 text-sm text-gray-800 border border-opacity-70 rounded-2xl;
+    &:not(:last-child):not(:first-child) {
+      /* @apply bg-slate-500; */
+      border-radius: 0px;
+      border-right: none;
+      /* border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-right-radius: 0; */
+    }
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      border-right: none;
+
+    }
+  }
+}
