@@ -40,7 +40,7 @@ const Navbar = (props) => {
             <div className="text-2xl font-bold text-white">
               <a href="#">
                 <span className="text-white">
-                  <img src="/logo.svg" alt="Logo" className="h-[1.6rem]" />
+                  <img src="./logo.svg" alt="Logo" className="h-[1.6rem]" />
                 </span>
               </a>
             </div>
