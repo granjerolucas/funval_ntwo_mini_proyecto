@@ -1,8 +1,11 @@
 .form-filter {
-  @apply rounded-2xl   shadow-lg bg-white;
-  /* @apply flex gap-4; */
+  @apply rounded-2xl   shadow-lg bg-white shadow-slate-300;
+
+   button.bbb {
+    @apply px-8 py-4  text-gray-800 border border-opacity-40 rounded-2xl;
+   }
   button {
-    @apply px-4 py-4 text-sm text-gray-800 border border-opacity-70 rounded-2xl;
+    @apply px-8 py-2  text-gray-800 border border-opacity-40 rounded-2xl;
     &:not(:last-child):not(:first-child) {
       /* @apply bg-slate-500; */
       border-radius: 0px;
@@ -14,12 +17,11 @@
     &:first-child {
       border-bottom-right-radius: 0;
       border-top-right-radius: 0;
+      border-right: none;
     }
     &:last-child {
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
-      border-right: none;
-
     }
   }
 }
