@@ -2,7 +2,7 @@
   "name": "funval_ntwo_mini_proyecto",
   "private": true,
   "homepage": "https://granjerolucas.github.io/funval_ntwo_mini_proyecto",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
