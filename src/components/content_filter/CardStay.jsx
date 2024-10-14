@@ -5,7 +5,7 @@ const CardStay = ({ item }) => {
   return (
     <div className="">
       <img
-        src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80"
+        src={item.photo}
         alt=""
         className="rounded-2xl h-72 w-full object-cover"
       />
